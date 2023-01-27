@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### References
+
+[Django cors headers](https://pypi.org/project/django-cors-headers/)
+[Django rest framework](https://www.django-rest-framework.org/tutorial/2-requests-and-responses/)
+[Connect React(AJAX and APIs)](https://reactjs.org/docs/faq-ajax.html#gatsby-focus-wrapper)

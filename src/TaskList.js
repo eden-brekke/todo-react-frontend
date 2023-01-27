@@ -35,7 +35,7 @@ export default function TaskList() {
       <ul>
         {items.map(item => (
           <li key={item.id}>
-            {item.title} {item.completed}
+            {item.title} {item.description} {item.priority} {item.completed} 
           </li>
         ))}
       </ul>

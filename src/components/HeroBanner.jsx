@@ -26,7 +26,8 @@ const HeroBanner = () => {
           color='text.secondary'
           paragraph
         >
-          Here you can find your own personal task list. You can add more items, you can edit existing items, you can delete items, and you can simple strikethrough them to show you've completed them.
+          Here you can find my personal task list. At the moment there is no security, anyone who has access to this is using the same task list. <br/>
+          Eventual goal is to set up user registration and have the experience tailored to each individual person using a database to store the different task lists.
         </Typography>
         <Stack
           sx={{
@@ -36,8 +37,8 @@ const HeroBanner = () => {
           spacing={2}
           justifyContent='center'
         >
-          <Button variant='contained'>Front end Source Code</Button>
-          <Button variant='outlined'>Backend Source Code</Button>
+          <Button variant='contained' href='https://github.com/eden-brekke/todo-react-frontend' target='_blank'>Front end Source Code</Button>
+          <Button variant='outlined' href='https://github.com/eden-brekke/todo-api-drf' target='_blank'>Backend Source Code</Button>
         </Stack>
       </Container>
     </Box>

@@ -10,7 +10,7 @@ export default function TaskList() {
   // this useEffect will run once
   // similar to componentDidMount()
   useEffect(() => {
-    fetch("http://localhost:8000/api/task-list/")
+    fetch("https://todo-api-sigma.vercel.app/api/task-list/")
       .then(res => res.json())
       .then(
         (result) => {
